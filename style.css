@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+nav {
+  padding: 52px 10%;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-logo {
+  width: 122px;
+  height: 95px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .main-logo.ft {
+    display: none;
+  }
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-container-text {
+  margin-right: 52px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #707070;
+  cursor: pointer;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .nav-container-text {
+    display: none;
+  }
+}
+.nav-container img.nav-search {
+  width: 26px;
+  height: 26px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  cursor: pointer;
+}
+.banner {
+  width: 100%;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .banner {
+    height: 350px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+main {
+  padding: 52px 10%;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  main {
+    padding: 52px 0;
+  }
+}
+.content {
+  width: 100%;
+  margin-top: 60px;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .content {
+    margin-top: 140px;
+  }
+}
+.content-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.4px;
+  color: #707070;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .content-title {
+    font-size: 7vw;
+    text-align: center;
+  }
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .content-container {
+    flex-direction: column;
+  }
+}
+.content-item {
+  width: 30%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .content-item {
+    margin-top: 20px;
+    width: 98%;
+  }
+}
+.content-item img {
+  width: 100%;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 14px;
+}
+.content-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.3px;
+  color: #707070;
+}
+.content-description {
+  margin-top: 33px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #707070;
+}
+.content-more {
+  margin-top: 73px;
+  align-self: flex-end;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #707070;
+}
+.content-load {
+  margin: 0 auto;
+  display: block;
+  border: none;
+  background: none;
+  margin-top: 56px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.3px;
+  color: #707070;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  .content-load {
+    text-decoration: underline;
+  }
+}
+footer {
+  width: 100%;
+  padding: 52px 10%;
+  background-color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  footer {
+    flex-direction: column;
+  }
+}
+footer .box {
+  max-width: 240px;
+}
+@media screen and (max-width: 940px) and (min-width: 0px) {
+  footer .box {
+    margin-top: 40px;
+  }
+}
+footer .box-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #f2f2f2;
+  text-align: center;
+}
+footer .box-description {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.13px;
+  color: #f2f2f2;
+  text-align: center;
+}
+footer .box.social {
+  display: flex;
+}
+footer .box.social img {
+  width: 44px;
+  height: 44px;
+}
+footer .box.social img:first-child {
+  margin-right: 34px;
+}
